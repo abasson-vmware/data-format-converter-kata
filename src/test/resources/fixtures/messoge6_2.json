@@ -1,0 +1,30 @@
+[
+  {
+    "id": 28348712948569,
+    "title": "Practical Object-Oriented Design",
+    "author": "Sandi Metz",
+    "ISBN": "978-0134456478",
+    "publishDate": "2018-08-22"
+  },
+  {
+    "id": 84923834857234,
+    "title": "Patterns of Enterprise Application Architecture",
+    "author": "Martin Fowler",
+    "ISBN": "978-8131794029",
+    "publishDate": "2012-01-01"
+  },
+  {
+    "id": 75829384982983,
+    "title": "Test-Driven Development By Example",
+    "author": "Kent Beck",
+    "ISBN": "978-0321146533",
+    "publishDate": "2002-11-08"
+  },
+  {
+    "id": 34095823093845,
+    "title": "Refactoring",
+    "author": "Martin Fowler",
+    "ISBN": "978-0134757599",
+    "publishDate": "2018-11-30"
+  }
+]
