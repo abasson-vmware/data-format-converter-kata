@@ -48,7 +48,7 @@ If we format this message a bit by adding whitespace and some comments to help e
 1|  // the message contains one response
 
 // this is the first (and only) response
-12345|1|0|  // the message number is 12345, its version is 1, and its status is 0a
+12345|1|0|  // the message number is 12345, its version is 1, and its status is 0
 4|3|        // the message contains tabular data, with 4 rows of 3 columns each
 
 id              | firstName | lastName |    // the headers of each of the four columns
@@ -115,7 +115,7 @@ As mentioned above, the first element of the message represents the number of re
 Example:
 
 ```text
-2|0|1|0|3|4|id|firstName|lastName|email|12|8|8|8|74839201948567|Kent|Beck|kent.beck@example.com|67829084871982|Martin|Fowler|martin.fowler@example.com|90293856782948|Sandi|Metz|sandi.metz@example.com0|1|0|4|5|id|title|author|ISBN|publishDate|12|8|8|8|13|28348712948569|Practical Object-Oriented Design|Sandi Metz|978-0134456478|2018-08-22|84923834857234|Patterns of Enterprise Application Architecture|Martin Fowler|978-8131794029|2012-01-01|75829384982983|Test-Driven Development By Example|Kent Beck|978-0321146533|2002-11-08|34095823093845|Refactoring|Martin Fowler|978-0134757599|2018-11-30|
+2|1111|1|0|3|4|id|firstName|lastName|email|12|8|8|8|74839201948567|Kent|Beck|kent.beck@example.com|67829084871982|Martin|Fowler|martin.fowler@example.com|90293856782948|Sandi|Metz|sandi.metz@example.com|1111|1|0|4|5|id|title|author|ISBN|publishDate|12|8|8|8|13|28348712948569|Practical Object-Oriented Design|Sandi Metz|978-0134456478|2018-08-22|84923834857234|Patterns of Enterprise Application Architecture|Martin Fowler|978-8131794029|2012-01-01|75829384982983|Test-Driven Development By Example|Kent Beck|978-0321146533|2002-11-08|34095823093845|Refactoring|Martin Fowler|978-0134757599|2018-11-30|
 ```
 
 Based on the first element, we can see that this message contains two responses. If we format the message with some whitespace and comments, we can see how that works:
@@ -133,7 +133,7 @@ id             | firstName | lastName | email                     |
 90293856782948 | Sandi     | Metz     | sandi.metz@example.com    |
 
 // the second response, which is also tabular
-2222|1|0|
+1111|1|0|
 4|5|
 id             | title                                           | author        | ISBN           | publishDate |
 12             | 8                                               | 8             | 8              | 13          |
